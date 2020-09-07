@@ -33,6 +33,10 @@
 
 .FirstHeadingElement {
   text-align: center;
+  font-size: 50px;
+  font-family: serif;
+  font-weight: 700;
+  color: magenta;
 }
 
 .ParagraphElement {
@@ -74,4 +78,14 @@
   background-color: #4d6a73;
   border: 1px solid #4d6a73;
   color: #fff;
+}
+
+.SpanElement {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  body  {
+    background: pink;
+  }
 }
