@@ -1,0 +1,76 @@
+.BodyElement {
+  background: #2b383c;
+}
+
+.DivElement-row {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.DivElement-rowElement {
+  margin: 0 5px 5px 0;
+  border: 1px solid #fff;
+  background: #598998;
+  min-height: 300px;
+  padding: 20px;
+  font-family: sans-serif;
+  width: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeadingElement,
+.FirstHeadingElement {
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #fff;
+  margin: 0 0 16px;
+}
+
+.FirstHeadingElement {
+  text-align: center;
+}
+
+.ParagraphElement {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 16px;
+}
+
+.ResultElement {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.FirstInput,
+.SecondInput {
+  width: 250px;
+  height: 24px;
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #427c8e;
+}
+
+.ButtonElement {
+  cursor: pointer;
+  height: 32px;
+  width: 258px;
+  background-color: #262f31;
+  box-shadow: none;
+  border: 1px solid #262f31;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.ButtonElement:hover {
+  background-color: #4d6a73;
+  border: 1px solid #4d6a73;
+  color: #fff;
+}
