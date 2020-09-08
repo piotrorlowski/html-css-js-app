@@ -13,7 +13,7 @@
   margin: 0 5px 5px 0;
   border: 1px solid #fff;
   background: #598998;
-  min-height: 300px;
+  min-height: 350px;
   padding: 20px;
   font-family: sans-serif;
   width: 30%;
@@ -34,9 +34,9 @@
 .FirstHeadingElement {
   text-align: center;
   font-size: 50px;
-  font-family: serif;
+  font-family: sans-serif;
   font-weight: 700;
-  color: magenta;
+  color: #fff;
 }
 
 .ParagraphElement {
@@ -49,6 +49,7 @@
   font-size: 24px;
   color: #fff;
   font-weight: 700;
+  height: 30px;
 }
 
 .FirstInput,
@@ -84,8 +85,15 @@
   display: block;
 }
 
-@media (max-width: 600px) {
-  body  {
-    background: pink;
+@media only screen and (max-width: 1900px) {
+  .DivElement-rowElement {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1665px) {
+  .DivElement-rowElement {
+    width: 100%;
+    text-align: center;
   }
 }
